@@ -31,8 +31,6 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 ## Step by step guide
 1. Disassemble the humidifer and remove the power board (located in the back where AC cord goes in)
 2. Desolder the blue rectangular component on the power board, marked U03. Good idea to clear some of the lacquer off, and after that desoldering wick and some wiggling of the pins should do it.
-3. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
-![PCB rear](pics/pcb-rear.jpg)
 3. Cut off 2 pins of the header that came with your digispark and solder them to GND and 5V pads.
 4. Connect wires to the TP and TXD pads.  
 ![PCB front](pics/pcb-front.jpg)
@@ -41,4 +39,6 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 - Angle the USB a little towards the top of the PCB.
 - Leave longer leads on the through-hole wires on the digispark. On P1 to be able to attach the USB-TTL and on P2 to solder the resistor to the wire.  
 ![PCB finished](pics/pcb-finished.jpg)
-7. If you want to perform the calibration, comment the binary write and uncomment the raw write, otherwise program the controller and you are done.
+7. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
+![PCB rear](pics/pcb-rear.jpg)
+8. If you want to perform the calibration, comment the binary write and uncomment the raw write, otherwise program the controller and you are done.
