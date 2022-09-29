@@ -7,7 +7,7 @@ This project is modified from the original to work with a digispark clone.
 ### Benefits
 - Based on cheap clone
 - Fits fully inside the case
-- In-circuit programmable
+- In-circuit programmable and calibratable
 
 ### Parts list
 - Digispark clone, get the blue board with the microUSB socket from e.g. <a href="https://www.aliexpress.com/wholesale?SearchText=attiny85+blue">AliExpress</a>.
@@ -41,4 +41,5 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 ![PCB finished](pics/pcb-finished.jpg)
 7. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
 ![PCB rear](pics/pcb-rear.jpg)
-8. If you want to perform the calibration, comment the binary write and uncomment the raw write, otherwise program the controller and you are done.
+8. (Optional calibration) Comment in the calibration code instead of the normal code and program the ATTiny85. Connect only sensor to power board, slide pins from TTL adapter to 5V, GND and TXD pins of ATTiny85 and perform min/max calibration. Note that minimum value should be recorded with the bottom base connected. If you completely disconnect the sensor the value will be much lower and you will not have correct empty container detection.
+9. Program controller with normal code, and you are done.
