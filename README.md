@@ -10,7 +10,7 @@ This project is modified from the original to work with a digispark clone.
 - In-circuit programmable
 
 ### Parts list
-- Digispark clone, get the blue board with the microUSB socket on e.g. AliExpress.
+- Digispark clone, get the blue board with the microUSB socket from e.g. <a href="https://www.aliexpress.com/wholesale?SearchText=attiny85+blue">AliExpress</a>.
 - USB to microUSB cable for loading the software
 - 1M resistor
 - USB to TTL adapter if you want to perform calibration
