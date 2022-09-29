@@ -46,4 +46,4 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 - Connect only sensor plug to power board, fit humidifer upper part to lower with empty container.
 - Slide on pins from TTL adapter to 5V, GND and TXD pins of ATTiny85.
 - Perform min/max calibration. Note that minimum value should be recorded with the bottom base connected. If you completely disconnect the sensor the value will be much lower and you will not have correct empty container detection. Max value, record the highest you get while pouring water before it goes to "-2".
-10. Program controller with normal code, and you are done.
+9. Program controller with normal code, and you are done.
