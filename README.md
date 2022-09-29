@@ -36,7 +36,7 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 ![PCB front](pics/pcb-front.jpg)
 5. Solder one end of 1M resistor to P0 and clip the lead.
 6. Fit and solder in the digispark.
-- Angle the USB a little towards the top of the PCB.
+- Angle the ATTiny85 a little towards the top of the PCB, so microUSB plug clears screw extrusion when connected.
 - Leave longer leads on the through-hole wires on the digispark. On P1 to be able to attach the USB-TTL and on P2 to solder the resistor to the wire.  
 ![PCB finished](pics/pcb-finished.jpg)
 7. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
