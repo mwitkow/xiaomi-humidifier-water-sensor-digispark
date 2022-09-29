@@ -41,5 +41,9 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 ![PCB finished](pics/pcb-finished.jpg)
 7. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
 ![PCB rear](pics/pcb-rear.jpg)
-8. (Optional calibration) Comment in the calibration code instead of the normal code and program the ATTiny85. Connect only sensor to power board, slide pins from TTL adapter to 5V, GND and TXD pins of ATTiny85 and perform min/max calibration. Note that minimum value should be recorded with the bottom base connected. If you completely disconnect the sensor the value will be much lower and you will not have correct empty container detection.
-9. Program controller with normal code, and you are done.
+8. (Optional) Calibration:
+- Comment in the calibration code instead of the normal code and program the ATTiny85.
+- Connect only sensor plug to power board, fit humidifer upper part to lower with empty container.
+- Slide on pins from TTL adapter to 5V, GND and TXD pins of ATTiny85.
+- Perform min/max calibration. Note that minimum value should be recorded with the bottom base connected. If you completely disconnect the sensor the value will be much lower and you will not have correct empty container detection. Max value, record the highest you get while pouring water before it goes to "-2".
+10. Program controller with normal code, and you are done.
