@@ -25,7 +25,7 @@ Sensor response is not very linear below 0.5L, but because below 0.5L the drum c
 ![Sensor linearization](pics/sensor-lin.png)
 
 ### Compiling
-You need the CapacitiveSensor libary - just install it in Arduino.  
+You need the CapacitiveSensor libary - just install it in Arduino IDE.  
 Also grab and install the SendOnlySoftwareSerial library here: https://github.com/nickgammon/SendOnlySoftwareSerial
 
 ## Step by step guide
