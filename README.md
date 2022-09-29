@@ -36,7 +36,7 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 3. Cut off 2 pins of the header that came with your digispark and solder them to GND and 5V pads.
 4. Connect wires to the TP and TXD pads.  
 ![PCB front](pics/pcb-front.jpg)
-5. Solder on end of resistor to P0 and clip the lead.
+5. Solder one end of 1M resistor to P0 and clip the lead.
 6. Fit and solder in the digispark.
 - Angle the USB a little towards the top of the PCB.
 - Leave longer leads on the through-hole wires on the digispark. On P1 to be able to attach the USB-TTL and on P2 to solder the resistor to the wire.  
