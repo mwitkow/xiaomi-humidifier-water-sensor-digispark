@@ -7,7 +7,7 @@ This project is modified from the original to work with a digispark clone.
 ### Benefits
 - Based on cheap clone
 - Fits fully inside the case
-- In-circuit programmable inside the case
+- In-circuit programmable
 
 ### Parts list
 - Digispark clone, get the blue board with the microUSB socket on e.g. AliExpress.
