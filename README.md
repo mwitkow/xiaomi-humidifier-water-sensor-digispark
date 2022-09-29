@@ -10,7 +10,7 @@ This project is modified from the original to work with a digispark clone.
 - In-circuit programmable inside the case
 
 ### Parts list
-- Digispark clone
+- Digispark clone, get the blue board with the microUSB socket on e.g. AliExpress.
 - USB to microUSB cable for loading the software
 - 1M resistor
 - USB to TTL adapter if you want to perform calibration
@@ -30,17 +30,14 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 
 ## Step by step guide
 1. Disassemble and desolder the blue rectangular component on the power board (power board located in the back where cord goes in). Good idea to clear some of the lacquer off, and after that desoldering wick and some wiggling of the pins should do it.
-2. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.
-
+2. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
 ![PCB rear](pics/pcb-rear.jpg)
 3. Cut off 2 pins of the header that came with your digispark and solder them to GND and 5V pads.
-4. Connect wires to the TP and TXD pads.
-
+4. Connect wires to the TP and TXD pads.  
 ![PCB front](pics/pcb-front.jpg)
 5. Solder on end of resistor to P0 and clip the lead.
 6. Fit and solder in the digispark.
 - Angle the USB a little towards the top of the PCB.
-- Leave longer leads on the through-hole wires on the digispark. On P1 to be able to attach the USB-TTL and on P2 to solder the resistor to the wire.
-
+- Leave longer leads on the through-hole wires on the digispark. On P1 to be able to attach the USB-TTL and on P2 to solder the resistor to the wire.  
 ![PCB finished](pics/pcb-finished.jpg)
 7. If you want to perform the calibration, comment the binary write and uncomment the raw write, otherwise program the controller and you are done.
