@@ -29,8 +29,9 @@ You need the CapacitiveSensor libary - just install it in Arduino.
 Also grab and install the SendOnlySoftwareSerial library here: https://github.com/nickgammon/SendOnlySoftwareSerial
 
 ## Step by step guide
-1. Disassemble and desolder the blue rectangular component on the power board (power board located in the back where cord goes in). Good idea to clear some of the lacquer off, and after that desoldering wick and some wiggling of the pins should do it.
-2. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
+1. Disassemble the humidifer and remove the power board (located in the back where AC cord goes in)
+2. Desolder the blue rectangular component on the power board, marked U1. Good idea to clear some of the lacquer off, and after that desoldering wick and some wiggling of the pins should do it.
+3. Connect the sensor and the main ground on the back of the PCB, because the ATTiny85 obviously does not have a separate analog ground.  
 ![PCB rear](pics/pcb-rear.jpg)
 3. Cut off 2 pins of the header that came with your digispark and solder them to GND and 5V pads.
 4. Connect wires to the TP and TXD pads.  
