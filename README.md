@@ -21,7 +21,7 @@ If you are worried about this influence and want to have the same calibration as
 
 P1 is used for serial because it has a LED on it.
 
-Sensor response is not very linear below 0.5L, but because below 0.5L the drum can't really reach the water anyway, it does not make any sense to linearize it:
+Sensor response is not very linear below 0.5L, but because below 0.5L the drum can't really reach the water anyway, it does not make any sense to linearize it:  
 ![Sensor linearization](pics/sensor-lin.png)
 
 ### Compiling
