@@ -17,12 +17,9 @@ This project is modified from the original to work with a digispark clone.
 - Wire
 
 ### Notes
-This project uses P2 as the sense pin, so the calibration is different to the original upstream project. Probably because P2 is an analog pin.
-If you are worried about this influence and want to have the same calibration as the original project, then you can use P0 as the sense pin and P2 as the sender, but the wire routing is less convenient.  
+P1 is used for serial because it has a LED on it. So you can see if it is sending serial packets, and also it does not interfer with capacitance measurement.
 
-P1 is used for serial because it has a LED on it.
-
-Sensor response is not very linear below 0.5L, but because below 0.5L the drum can't really reach the water anyway, it does not make any sense to linearize it:  
+Sensor response is not very linear below 0.5L, but because below 0.5L the drum can't really reach the water anyway, it does not make sense to linearize it:  
 ![Sensor linearization](pics/sensor-lin.png)
 
 ### Compiling
