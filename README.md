@@ -45,6 +45,6 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 - Connect P3 to GND on the digispark board with a temporary jumper.
 - Plug in the humidifer and immediately press the power button, so it turns on.
 - If the calibration process started successfully, the humidifer will display 5 bars without flashing for 10 seconds. After 10 seconds it will display 1 bar. If the humidifer displays 3 bars, you have a short in the sensor or the sensor wiring. Fix it and try again.
-- After humidifer displays 1 bar, start to fill the humidifer with water. The sensor will use default values to show you the level. Fill the water until 5 bars begin flashing. If the level does not change from 1 bar at all, and only at the end directly displays 5 flashing bars, then you probably have a problem with the circuit or sensor was not dry/clean when you started.
+- After humidifer displays 1 bar, start to fill the humidifer with water. The sensor will use default values to show you the level. Fill the water until 5 bars begin flashing. If the level does not change from 1 bar at all, and only at the end directly displays 5 flashing bars, then you probably have a problem with the circuit or sensor was not dry/clean when you started, so you will have to fix and try again.
 - The calibration is complete and stored in the EEPROM, and will be used on startup.
 - Unplug the humidifier, remove the jumper between P3 and GND and reassemble the humidifier.
