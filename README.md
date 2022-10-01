@@ -34,7 +34,7 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 ![PCB front](pics/pcb-front.jpg)
 5. Program the digispark with the sketch.
 6. Solder one end of 1M resistor to P0 and clip the lead.
-7. Fit and solder in the digispark.
+7. Fit and solder in the digispark. Connect TXD to P1 and TP to P2.
 - Angle the ATTiny85 a little towards the top of the PCB, so microUSB plug clears screw extrusion when connected.
 - Leave longer leads on the through-hole wires on the digispark. On P1 to be able to attach a USB-TTL if you need to debug and on P2 to solder the resistor to the wire.  
 ![PCB finished](pics/pcb-finished.jpg)
