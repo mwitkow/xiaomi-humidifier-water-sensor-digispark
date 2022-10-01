@@ -47,4 +47,4 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 - If the calibration process started successfully, the humidifer will display 5 bars without flashing for 10 seconds. After 10 seconds it will display 1 bar. If the humidifer displays 3 bars, you have a short in the sensor or the sensor wiring. Fix it and try again.
 - After humidifer displays 1 bar, start to fill the humidifer with water. The sensor will use default values to show you the level. Fill the water until 5 bars begin flashing.
 - The calibration is complete and stored in the EEPROM, and will be used on startup.
-- Remove the jumper between P3 and GND and reassemble the humidifier.
+- Unplug the humidifier, remove the jumper between P3 and GND and reassemble the humidifier.
