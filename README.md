@@ -42,7 +42,7 @@ Also grab and install the SendOnlySoftwareSerial library here: https://github.co
 ![PCB rear](pics/pcb-rear.jpg)
 9. Calibration:
 - The humidifer should be empty, the sensor clean, and the bottom part should be fully assembled (incl. the drum). Do not try to calibrate outside of the circuit or with partial lower part, it will not yield a good result.
-- Remove the top part and fill the water until it just touches the very bottom part of the sensor. This will be your "minimum level".
+- Remove the top part and fill the water until it just touches the very bottom part of the sensor. This will be your "minimum level". Reinstall top part.
 - Connect P3 to GND on the digispark board with a temporary jumper.
 - Plug in the humidifer and immediately press the power button, so it turns on.
 - If the calibration process started successfully, the humidifer will display 5 bars without flashing for 10 seconds. After 10 seconds it will display 1 bar. If the humidifer displays 3 bars, you have a short in the sensor or the sensor wiring. Fix it and try again.
